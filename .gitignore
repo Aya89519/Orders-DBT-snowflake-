@@ -1,0 +1,20 @@
+# DBT
+target/
+dbt_packages/
+logs/
+dbt_modules/
+
+
+# Secrets
+profiles.yml
+.env
+*.key
+*.pem
+*.p12
+*.db
+
+# VS Code
+.vscode/
+
+# Mac
+.DS_Store
